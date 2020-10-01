@@ -6,10 +6,10 @@
 # --- Required options --- #
 
 # Name of website
-title: My Website
+title: Vignesh's website
 
 # Your name to show in the footer
-author: Some Person
+author: Vignesh Sundaresha
 
 # --- List of links in the navigation bar --- #
 
@@ -39,12 +39,12 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
+  email: "vigneshsundaresh@gmail.com"
+#  facebook: deanattali
+  github: vignesh99
+#  twitter: 
 #  reddit: yourname
-#  linkedin: daattali
+  linkedin: https://www.linkedin.com/in/vignesh-s-1a3159137/
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -69,10 +69,12 @@ rss-description: This website is a virtual proof that I'm awesome
 
 # Select which social network share links to show in posts
 share-links-active:
-  twitter: true
-  facebook: true
+  #twitter: true
+  #facebook: true
+  email: true
+  github: true
   linkedin: true
-  vk: false
+  #vk: false
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
