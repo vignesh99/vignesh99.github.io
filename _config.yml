@@ -6,19 +6,21 @@
 # --- Required options --- #
 
 # Name of website
-title: Vignesh's website
+title: Vignesh Sundaresha
 
 # Your name to show in the footer
-author: Vignesh Sundaresha
+author: Vignesh S
 
 # --- List of links in the navigation bar --- #
 
 navbar-links:
+  Projects: "Projects"
+  
+  #Resources:
+  #  - Beautiful Jekyll: "https://beautifuljekyll.com"
+  #  - Learn markdown: "https://www.markdowntutorial.com/"
+  CV: "https://drive.google.com/file/d/1uh-hswW9QI68qRfpTOSBjZglsgRzewmK/view?usp=sharing"
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
 
 # --- Logo --- #
 
@@ -63,7 +65,7 @@ social-network-links:
 
 # If you want to show a link to an RSS in the footer, add the site description here.
 # If you don't want to show an RSS link, remove the following line.
-rss-description: This website is a virtual proof that I'm awesome
+#rss-description: This website is a virtual proof that I'm awesome
 
 # --- General options --- #
 
