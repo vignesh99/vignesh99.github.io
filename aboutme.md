@@ -1,16 +1,9 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Interests and hobbies
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+I am someone who is very energetic and passionate about things I like. I am a former National level Badminton player and currently represent my institute IIT Madras at various sports meets. I am a ardent sports fan and watch a wide spectrum of sports, Tennis, Football, Formula 1, Cricket and Basketball to name a few. Rafael Nadal is one of my sporting idols, his intensity on court and never-give-up attitude is something I try to reciprocate in my daily life. Apart from him I am also moved by the greatness and qualities of Lionel Messi, Sebastian Vettel and Stephen Curry. Among the many things, I admire their ability to stay humble inspite of the fame and recognition amassed by them. I believe that sports has the abliltiy to shape a person by giving them everlasting memories.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### My story
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+I also pursue drawing and pencil sketching as a hobby. In my free time I read novels of fiction and myth genre.
