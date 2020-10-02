@@ -12,5 +12,5 @@ Prof.	Srikrishna Bhashyam, IIT Madras
 
 ### Course : Digital IC Design (EE5311)
 Role : Teaching Assistant 
-Prof. Janakiraman Viraraghavan, IIT Madras
+Prof. Janakiraman Viraraghavan, IIT Madras  
 [Course webpage](http://www.ee.iitm.ac.in/vlsi/courses/ee5311_2020)
