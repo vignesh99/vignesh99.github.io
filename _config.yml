@@ -14,13 +14,11 @@ author: Vignesh S
 # --- List of links in the navigation bar --- #
 
 navbar-links:  
-  #Resources:
-  #  - Beautiful Jekyll: "https://beautifuljekyll.com"
-  #  - Learn markdown: "https://www.markdowntutorial.com/"
-  #CV: ""
-  Research: 
-    - Projects: "Projects"
-    - Talks: "Talks"
+#   CV: ""
+#   Research: 
+#     - Projects: "Projects"
+#     - Talks: "Talks"
+  Research: "Projects"
   Teaching: "Teaching"
   About Me: "aboutme"
 
