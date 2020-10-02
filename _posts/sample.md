@@ -11,7 +11,7 @@ tags: [books, test]
 comments: true
 ---
 
-##Here's a sample table:
+## Here's a sample table:
 
 | Number | Next number | Previous number |
 | :------ |:--- | :--- |
