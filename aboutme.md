@@ -11,6 +11,7 @@ Rafael Nadal is one of my sporting idols; his on-court intensity and never-give-
 
 I also pursue drawing and pencil sketching as a hobby. In my free time, I read novels of fiction and myth genre.
 
+<hr style="border:2px solid gray"> 
 
 ## Contact
 [vigneshsundaresh@gmail.com](mailto:vigneshsundaresh@gmail.com)
