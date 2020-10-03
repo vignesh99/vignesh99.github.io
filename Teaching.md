@@ -2,6 +2,7 @@
 layout: page
 title: Teaching
 #subtitle: Interests and hobbies
+show-avatar: false
 ---
 
 ### Course : Adaptive Signal Processing (EE6110)
