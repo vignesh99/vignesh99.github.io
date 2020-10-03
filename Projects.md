@@ -2,6 +2,7 @@
 layout: page
 title: Research
 subtitle: Projects and talks
+show-avatar: false
 ---
 
 Some of my prior work related to them are listed below
