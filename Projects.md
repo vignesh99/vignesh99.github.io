@@ -14,3 +14,8 @@ As a part of my summer internship at _Texas Instruments_ I worked on designing F
 ### Image Segmentation
 As a part of the [Image Signal processing](https://github.com/vignesh99/ImageSignalProcessing-EE5175) course project I reproduced the paper "Normalized Cuts
 and Image Segmentation" by _Jianbo Shi_ and _Jitendra Malik_. The normalized cuts algorithm which employed optimization via Rayleigh's inequality was implemented, and was found to be effective in images with distinct partitions. The heavy dependency on the hyperparameters has been explained in the [report](https://github.com/vignesh99/Image-Segmentation/blob/master/EE5175_Project_EE16B127.pdf). The sparsity in the graph has been exploited and the [code](https://github.com/vignesh99/Image-Segmentation) does contain any explicit loops; thus decreasing the run time significantly.
+
+<hr style="border:2px solid gray"> 
+
+### Talk on MIMO Transceiver Optimization
+I gave a talk on Transceiver optimization for THP (Tomlinson-Harashima Precoded) MIMO systems as part of the course Multi-Antenna Digital Communications. The talk revolved around understanding Multiplicative Schur convex objective functions and how the implications of the work can be understood using already known concepts. Here are the [slides](https://github.com/vignesh99/Transceiver-Optimization-MIMO-systems/blob/master/Presentation.pdf) and the [paper](https://ieeexplore.ieee.org/document/4567648) which was expounded. 
