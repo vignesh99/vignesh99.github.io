@@ -2,6 +2,7 @@
 layout: page
 title: About me
 subtitle: Interests and hobbies
+show-avatar: false
 ---
 
 I am someone who is very energetic and passionate about things I like. I am a former National level Badminton player and currently represent my institute IIT Madras at various sports meets. I am an ardent sports fan and watch a broad spectrum of sports; Tennis, Football, Formula 1, Cricket, and Basketball, to name a few.  
