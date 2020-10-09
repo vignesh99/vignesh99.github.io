@@ -4,6 +4,7 @@ title: Teaching
 #subtitle: Interests and hobbies
 show-avatar: false
 ---
+I enjoy being a Teaching Assistant where, I get to explain concepts and clarify doubts. This helps me assimilate the subject from a different perspective.
 
 ### Course : Adaptive Signal Processing (EE6110)
 Role : Teaching Assistant  
