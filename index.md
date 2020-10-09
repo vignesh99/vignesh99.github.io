@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Vignesh's website
-subtitle: An insight into some of my academic activities
+subtitle: An insight into my academic activities
 ---
 
 Welcome to my website!!  
