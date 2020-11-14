@@ -8,7 +8,7 @@ show-avatar: false
 My research interests span over VLSI Design, Image Processing, Optimization and Wireless Communication. Some of my prior work related to them are listed below
 
 ### Optimal synthesis of fixed-point FIR filters
-As a part of my summer internship at _Texas Instruments_ I worked on designing FIR (Finite Impulse Response) filter coefficients to reduce power consumption. Given the bandwidth and ripple specifications, the problem was formulated as a MILP (**Mixed-Integer Linear Programming**) problem, where optimization was done over the gain (continuous) and filter coefficients (fixed-point/integer). By reducing the number of bits in the filter-coefficient representation the number of partial products of the multiplier reduces, thus reducing the hardware expense. I also designed a heuristic multi-pass MILP (optimization is performed over several passes) which is faster but less optimal compared to the MILP approach.
+As a part of my summer internship at _Texas Instruments_ I worked on designing FIR (Finite Impulse Response) filter coefficients to reduce power consumption. Given the bandwidth and ripple specifications, the problem was formulated as a MILP (**Mixed-Integer Linear Programming**) problem, where optimization was done over the gain (continuous) and filter coefficients (fixed-point/integer). By reducing the number of bits in the filter-coefficient representation the number of partial products of the multiplier reduces, thus reducing the hardware expense. I also designed a heuristic multi-pass MILP (optimization is performed over several passes) which is faster but less optimal compared to the MILP approach. The slides from the talk can be found [here](https://drive.google.com/file/d/1KmIV042MtBcKLTNqkHNfUv1x97a4MTur/view?usp=sharing)
 
 <hr style="border:2px solid gray"> 
 
@@ -19,7 +19,7 @@ and Image Segmentation" by _Jianbo Shi_ and _Jitendra Malik_. The normalized cut
 <hr style="border:2px solid gray"> 
 
 ### Talk on MIMO transceiver optimization
-I gave a talk on transceiver optimization for THP (Tomlinson-Harashima Precoded) MIMO systems as a part of the course Multi-Antenna Digital Communications. The talk revolved around understanding multiplicative Schur convex objective functions and how the implications of the work can be understood using already known concepts. Here are the [slides](https://github.com/vignesh99/Transceiver-Optimization-MIMO-systems/blob/master/Presentation.pdf) and the [paper](https://ieeexplore.ieee.org/document/4567648) by _Alberto D’Amico_ which was expounded.  
+I gave a talk on transceiver optimization for THP (Tomlinson-Harashima Precoded) MIMO systems as a part of the course Multi-Antenna Digital Communications. The talk revolved around understanding multiplicative Schur convex objective functions and how the implications of the work can be understood using already known concepts. Here are the [slides](https://github.com/vignesh99/Transceiver-Optimization-MIMO-systems/blob/master/Presentation.pdf) from the talk and the [paper](https://ieeexplore.ieee.org/document/4567648) by _Alberto D’Amico_ that was expounded.  
 <hr style="border:2px solid gray"> 
 
 ### Spoken Digit Recognition via HMM and ANN
