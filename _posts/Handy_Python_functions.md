@@ -1,3 +1,14 @@
+---
+layout: post
+title: Handy python functions
+subtitle: First post
+cover-img: /assets/img/path.jpg
+thumbnail-img: /assets/img/thumb.png
+share-img: /assets/img/path.jpg
+gh-repo: vignesh99/Handy-python-functions
+tags: [python]
+comments: true
+---
 
 Put together some content which I felt were quite ingenious and powerful. Most of them are just functions of existing python libraries. While some of them are for enhancing computational speed, some others are for convinience which you didn't know you could have!  
 
