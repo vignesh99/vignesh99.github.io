@@ -18,10 +18,10 @@ navbar-links:
 #   Research: 
 #     - Projects: "Projects"
 #     - Talks: "Talks"
+  Blog: "Blog"
   Research: "Projects"
   Teaching: "Teaching"
   About Me: "aboutme"
-  Blog: "Blog"
 
 # --- Logo --- #
 
