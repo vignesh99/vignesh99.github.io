@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: Interests and hobbies
+subtitle: what I do apart from academics
 show-avatar: false
 ---
 
