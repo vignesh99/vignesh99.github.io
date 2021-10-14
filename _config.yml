@@ -102,7 +102,8 @@ feed_show_tags: true
 
 #navbar-col: "#00FA9A"
 #navbar-col: "#CC2900"
-navbar-col: "#142D4C"
+#navbar-col: "#142D4C"
+navbar-col: "#0C4091"
 navbar-text-col: "#FFFFE0"
 navbar-border-col: "#DDDDDD"
 page-col: "#FFFFFF"
@@ -110,7 +111,7 @@ text-col: "#404040"
 link-col: "#008AFF"
 hover-col: "#0085A1"
 #footer-col: "#EAEAEA"
-footer-col: "#142D4C"
+footer-col: "#0C4091"
 footer-text-col: "#FFFFE0"
 footer-link-col: "#404040"
 
