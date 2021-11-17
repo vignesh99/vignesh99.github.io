@@ -5,7 +5,7 @@ subtitle: Projects and talks
 show-avatar: false
 ---
 
-My research interests span over VLSI design, image processing, information theory, and wireless communication. Some of my prior work related to them are listed below
+My research interests span over VLSI design, computer vision, coding theory, and wireless communication. Some of my prior work related to them are listed below
 
 ### [Optimal synthesis of fixed-point FIR filters](https://vignesh99.github.io/Research/FIRfilterTI)
 
