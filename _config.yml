@@ -20,7 +20,7 @@ navbar-links:
 #     - Talks: "Talks"
 #  Blog: "Blog"
   Publications: "Publications"
-  Research: "Projects"
+#  Research: "Projects"
   Teaching: "Teaching"
   About Me: "aboutme"
 
