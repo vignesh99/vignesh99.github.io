@@ -13,7 +13,8 @@ html {
 body {
   /*font-family: 'Lora', 'Times New Roman', serif;*/
   /*font-family: 'Palatino', 'URW Palladio L', serif;*/
-  font-family: 'American Typewriter', serif;
+  /* font-family: 'American Typewriter', serif; */
+  font-family: 'CMS', 'Droid Sans', Helvetica, Arial, sans-serif;
   font-size: 1.125rem;
   color: {{ site.text-col | default: "#404040" }};
   position: relative;
