@@ -2,7 +2,7 @@
 layout: page
 title: Teaching
 #subtitle: Interests and hobbies
-#show-avatar: false
+show-avatar: false
 ---
 I enjoy being a Teaching Assistant, explaining concepts, and clarifying doubts of other students. This helps me interpret the subject from different perspectives.
 
