@@ -29,7 +29,7 @@ html {
 		 url('./fonts/Serif/cmunbx.woff') format('woff'),
 		 url('./fonts/Serif/cmunbx.ttf') format('truetype'),
 		 url('./fonts/Serif/cmunbx.svg#cmunbx') format('svg');
-	font-weight: bold;
+	font-weight: normal;
 	font-style: normal;
 }
 
@@ -53,7 +53,7 @@ html {
 		 url('./fonts/Serif/cmunbi.woff') format('woff'),
 		 url('./fonts/Serif/cmunbi.ttf') format('truetype'),
 		 url('./fonts/Serif/cmunbi.svg#cmunbi') format('svg');
-	font-weight: bold;
+	font-weight: normal;
 	font-style: italic;
 }
 
