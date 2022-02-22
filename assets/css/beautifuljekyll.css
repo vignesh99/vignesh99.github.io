@@ -13,11 +13,11 @@ html {
 
 @font-face {
 	font-family: 'Computer Modern Serif';
-	src: url('fonts/Serif/cmunrm.eot');
-	src: url('fonts/Serif/cmunrm.eot?#iefix') format('embedded-opentype'),
-		 url('fonts/Serif/cmunrm.woff') format('woff'),
-		 url('fonts/Serif/cmunrm.ttf') format('truetype'),
-		 url('fonts/Serif/cmunrm.svg#cmunrm') format('svg');
+	src: url('../../fonts/Serif/cmunrm.eot');
+	src: url('../../fonts/Serif/cmunrm.eot?#iefix') format('embedded-opentype'),
+		 url('../../fonts/Serif/cmunrm.woff') format('woff'),
+		 url('../../fonts/Serif/cmunrm.ttf') format('truetype'),
+		 url('../../fonts/Serif/cmunrm.svg#cmunrm') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -25,24 +25,22 @@ html {
 
 @font-face {
 	font-family: 'Computer Modern Serif';
-	src: url('fonts/Serif/cmunbx.eot');
-	src: url('fonts/Serif/cmunbx.eot?#iefix') format('embedded-opentype'),
-		 url('fonts/Serif/cmunbx.woff') format('woff'),
-		 url('fonts/Serif/cmunbx.ttf') format('truetype'),
-		 url('fonts/Serif/cmunbx.svg#cmunbx') format('svg');
+	src: url('../../fonts/Serif/cmunbx.eot');
+	src: url('../../fonts/Serif/cmunbx.eot?#iefix') format('embedded-opentype'),
+		 url('../../fonts/Serif/cmunbx.woff') format('woff'),
+		 url('../../fonts/Serif/cmunbx.ttf') format('truetype'),
+		 url('../../fonts/Serif/cmunbx.svg#cmunbx') format('svg');
 	font-weight: bold;
 	font-style: normal;
 }
 
-/*
-
 @font-face {
 	font-family: 'Computer Modern Serif';
-	src: url('./fonts/Serif/cmunti.eot');
-	src: url('./fonts/Serif/cmunti.eot?#iefix') format('embedded-opentype'),
-		 url('./fonts/Serif/cmunti.woff') format('woff'),
-		 url('./fonts/Serif/cmunti.ttf') format('truetype'),
-		 url('./fonts/Serif/cmunti.svg#cmunti') format('svg');
+	src: url('../../fonts/Serif/cmunti.eot');
+	src: url('../../fonts/Serif/cmunti.eot?#iefix') format('embedded-opentype'),
+		 url('../../fonts/Serif/cmunti.woff') format('woff'),
+		 url('../../fonts/Serif/cmunti.ttf') format('truetype'),
+		 url('../../fonts/Serif/cmunti.svg#cmunti') format('svg');
 	font-weight: normal;
 	font-style: italic;
 }
@@ -50,15 +48,15 @@ html {
 
 @font-face {
 	font-family: 'Computer Modern Serif';
-	src: url('./fonts/Serif/cmunbi.eot');
-	src: url('./fonts/Serif/cmunbi.eot?#iefix') format('embedded-opentype'),
-		 url('./fonts/Serif/cmunbi.woff') format('woff'),
-		 url('./fonts/Serif/cmunbi.ttf') format('truetype'),
-		 url('./fonts/Serif/cmunbi.svg#cmunbi') format('svg');
+	src: url('../../fonts/Serif/cmunbi.eot');
+	src: url('../../fonts/Serif/cmunbi.eot?#iefix') format('embedded-opentype'),
+		 url('../../fonts/Serif/cmunbi.woff') format('woff'),
+		 url('../../fonts/Serif/cmunbi.ttf') format('truetype'),
+		 url('../../fonts/Serif/cmunbi.svg#cmunbi') format('svg');
 	font-weight: bold;
 	font-style: italic;
 }
-*/
+
 body {
   /*font-family: 'Lora', 'Times New Roman', serif;*/
   /*font-family: 'Palatino', 'URW Palladio L', serif;*/
