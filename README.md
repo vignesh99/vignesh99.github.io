@@ -1,2 +1,2 @@
 ## My webpage  
-[Link](https://vignesh99.github.io/)
+Click [here](https://vignesh99.github.io/)
