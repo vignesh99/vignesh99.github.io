@@ -67,6 +67,9 @@ body {
   color: {{ site.text-col | default: "#404040" }};
   position: relative;
   background-color: {{ site.page-col | default: "#FFFFFF" }};
+  max-width: 102rem;
+  margin-left: 9%;
+  margin-right: 9%;
   {% if site.page-img %}
   background-image: url({{ site.page-img | relative_url }});
   background-attachment: fixed;
@@ -117,14 +120,36 @@ hr.small {
   border-color: inherit;
   border-radius: 0.1875rem;
 }
+/* Add details summary border */
+details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: .5em .5em 0;
+}
 
+summary {
+    font-weight: bold;
+    font-size: 25px;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+    outline:none;
+}
+
+details[open] {
+    padding: .5em;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5em;
+}
 /* fix in-page anchors to not be behind fixed header */
-:target:before {
+/*:target:before {
   content: "";
   display: block;
-  height: 3.125rem; /* navbar height */
-  margin: -3.125rem 0 0;
-}
+  height: 3.125rem;*/ /* navbar height */
+  /*margin: -3.125rem 0 0;
+}*/
 
 .hideme {
   display: none;
