@@ -18,7 +18,7 @@ navbar-links:
 #   Research: 
 #     - Projects: "Projects"
 #     - Talks: "Talks"
-#  Blog: "Blog"
+  Blog: "blog"
   Publications: "Publications"
 #  Research: "Projects"
   Teaching: "Teaching"
@@ -155,7 +155,7 @@ footer-link-col: "#404040"
 # --- Comments --- #
 
 # To use Disqus comments, sign up to https://disqus.com and fill in your Disqus shortname (NOT the userid)
-#disqus: ""
+disqus: vigneshsundaresha
 
 # To use Facebook Comments, create a Facebook app and fill in the Facebook App ID
 #fb_comment_id: ""
@@ -203,6 +203,7 @@ paginate: 5
 
 kramdown:
   input: GFM
+  math_engine: katex
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
@@ -237,4 +238,6 @@ plugins:
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
+
+exclude: [vendor]
 

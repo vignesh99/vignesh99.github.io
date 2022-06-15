@@ -3,6 +3,7 @@ layout: page
 title: Publications
 #subtitle: Interests and hobbies
 show-avatar: false
+full-width: true
 ---
 # Conference papers
 
