@@ -156,6 +156,7 @@ footer-link-col: "#404040"
 
 # To use Disqus comments, sign up to https://disqus.com and fill in your Disqus shortname (NOT the userid)
 disqus: vigneshsundaresha
+url: https://vignesh99.github.io/
 
 # To use Facebook Comments, create a Facebook app and fill in the Facebook App ID
 #fb_comment_id: ""
