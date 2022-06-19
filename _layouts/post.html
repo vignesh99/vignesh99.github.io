@@ -76,6 +76,7 @@ layout: base
         </li>
         {% endif %}
       </ul>
+	  <span class="post-meta">Posted on {{ page.date | date: date_format }}</span>
       {% include comments.html %}
     </div>
   </div>
