@@ -9,7 +9,7 @@
 title: Vignesh Sundaresha
 
 # Your name to show in the footer
-author: Vignesh S
+author: Vignesh Smathjax
 
 # --- List of links in the navigation bar --- #
 
@@ -204,7 +204,7 @@ paginate: 5
 
 kramdown:
   input: GFM
-  math_engine: katex
+  math_engine: mathjax
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
