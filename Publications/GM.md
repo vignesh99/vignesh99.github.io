@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Glitch minimizing by Geometric Programming
+title: Glitch reduction using GP
 subtitle: TCAD
 show-avatar: false
 ---
