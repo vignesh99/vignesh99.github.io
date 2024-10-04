@@ -23,3 +23,12 @@ Instructor : Prof. Janakiraman Viraraghavan, IIT Madras
 Role : Teaching Assistant (Spring 2021)  
 Instructor : Prof. A. N. Rajagopalan, IIT Madras  
 [Course webpage](http://www.ee.iitm.ac.in/2015/03/image-signal-processing-ee5175/)
+
+
+
+### Course : VLSI in Machine Learning (ECE498)
+Role : Teaching Assistant (Fall 2024)  
+Instructor : Prof. Naresh R. Shanbhag, UIUC  
+[Course webpage](https://courses.grainger.illinois.edu/ECE498NSG/fa2024/)
+
+
