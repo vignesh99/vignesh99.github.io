@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Vignesh's website
-subtitle: An insight into my activities
+subtitle: an insight into my activities
 ---
 <head>
 <meta name="google-site-verification" content="-DzfMuFXn-PApS3ZcXrvdRaFxdZA9xmjQxxiJZzwrdw" />
