@@ -2,7 +2,7 @@
 layout: post
 title: Happiness
 subtitle: my perspective
-tags: [randomness, freeness]
+tags: [random, freeness, happiness]
 comments: false
 full-width: true
 thumbnail-img: "videos/Happiness/Park.png"
@@ -12,9 +12,11 @@ social-share: false
 
   What comes to your mind when you hear the word happiness? It could be spending time at home with family, watching movies with friends, playing sports, doing something you are passionate about (of course I mean your job :)), being on vacation, performing art, baking, reading novels, or just strolling through nature. These are various examples that come to mind. But is there a common thread between all these sources of happiness? Yes, that is what I found at least. Below I share a brief account of my journey in discovering this.
 
-<div style="text-align: center;">
+<figure style="text-align: center;">
   <img src="{{site.baseurl}}/videos/Happiness/Park.png" alt="boy in the park" style="width: 50%; height: auto;" />
-</div>
+  <figcaption>Image Credits: DALL.E 3</figcaption>
+</figure>
+
   
   During last summer, I had trouble focusing on my research for sustained periods of time. Apart from being distracted, I also felt the urge to take a break and spend some time in a nearby park. This made me wonder why going to a park was more appealing to me than learning cutting-edge knowledge. The activity I enjoyed was simple: me sitting on the lawn and staring at random objects and events. It had no people I know involved, no specific creatures I am obsessed about. You could say the place and time (typically around sunset) could be the trigger for happiness. But I would argue that I would feel happy to sit in another random park at any other time too. The setting is important, but less so for its specificity, and more so for what it fosters. I realized even when I was staring at these random objects, I many times barely noticed what was happening. I was more involved in my thoughts than being focused on the objects. I would use these objects and events as cues to start a new train of thought. I was willing myself to allow that possibility. That I realized was the key. The act of letting your mind free to pursue _random_ thoughts and not being _forced_ to focus on a specific topic felt good. A side effect of this is the loss of consciousness of the act I was doing, which (in this case) was staring at the ducks in the pond. Maybe for many of you this is obvious -- that randomness or freeness in thoughts is a source of happiness -- but it was not for me. And when I say source, I mean a very strong source of happiness, something strong enough that people latch onto as hope.
 
@@ -28,7 +30,7 @@ social-share: false
 
   On the contrary, constantly being drawn to a specific thought (lack of "true randomness") can be a strong source of unhappiness. The specific thought could be about finding a job, a traumatic experience, missing someone, or simpler things like - constantly focusing on not hitting other cars in heavy traffic or constantly seeing advertisement breaks. Physical pain is another good example of this since it constantly reminds you of its presence. _Is there a way to avoid being pulled towards such thoughts and foster random thoughts instead?_ One way to tackle the former is by coming face-to-face with the specific thought(s) bothering you and being secure about it. As for the latter, it is the act of losing self-consciousness by following the cliche of "being in the present". It is about knowing your future is secure and you are happy with what comes next. It is about being confident in yourself of facing the future when the time comes. It is also about being content with how you have lived your life so far. But even when these don't exist, slipping into the pockets of random thoughts can still give you happiness for a brief period (that one dinner with your close friend when you are in a rough patch).
 
-  It is important to distinguish happiness from joy (winning a sports match), excitement (anticipation before a race), pleasure (having sex), and thrill (riding a rollercoaster). The latter-mentioned emotions are temporary, whereas happiness is a prolonged state of mind. And I know, not everyone will be on board with what I have written thus far. There is a good chance that my hypothesis is too reductive, over-generalizing, and too specific to me. Even then, I believe, there is some truth to it.
+  It is important to distinguish happiness from joy (winning a sports match), excitement (anticipation before a race), pleasure (having sex), and thrill (riding a rollercoaster). The latter-mentioned emotions are temporary, whereas being happy is a prolonged state of mind that gives you the ability to casually dip into randomn thoughts. And I know, not everyone will be on board with what I have written thus far. There is a good chance that my hypothesis is too reductive, over-generalizing, and too specific to me. Even then, I believe, there is some truth to it.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
