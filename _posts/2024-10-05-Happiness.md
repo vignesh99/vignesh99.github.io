@@ -14,7 +14,7 @@ social-share: false
 
 <figure style="text-align: center;">
   <img src="{{site.baseurl}}/videos/Happiness/Park.png" alt="boy in the park" style="width: 50%; height: auto;" />
-  <figcaption>Image Credits: DALL.E 3</figcaption>
+  <figcaption>Image Credits: Generated using DALL.E 3</figcaption>
 </figure>
 
   
