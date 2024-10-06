@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Happiness
-subtitle: my perspective
+subtitle: from my perspective
 tags: [random, freeness, happiness]
 comments: false
 full-width: true
