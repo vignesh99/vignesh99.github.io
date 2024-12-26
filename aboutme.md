@@ -14,4 +14,4 @@ I also pursue drawing and pencil sketching as a hobby. In my free time, I read n
 <hr style="border:2px solid gray"> 
 
 ## Contact
-[vigneshsundaresh@gmail.com](mailto:vigneshsundaresh@gmail.com)
+vs49 [at] illinois [dot] edu
