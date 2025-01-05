@@ -2,7 +2,7 @@
 layout: post
 title: Happiness
 subtitle: from my perspective
-tags: [randomness, freeness, happiness]
+tags: [general, questions]
 comments: false
 full-width: true
 thumbnail-img: "videos/Happiness/Park.png"
