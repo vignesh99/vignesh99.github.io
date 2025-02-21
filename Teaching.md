@@ -32,3 +32,9 @@ Instructor : Prof. Naresh R. Shanbhag, UIUC
 [Course webpage](https://courses.grainger.illinois.edu/ECE498NSG/fa2024/)
 
 
+
+### Course : Introduction to Optimization (ECE490)
+Role : Teaching Assistant (Spring 2025)  
+Instructor : Prof. Max Raginsky, UIUC  
+[Course webpage](https://maxim.ece.illinois.edu/teaching/spring25/)
+
