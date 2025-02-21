@@ -18,3 +18,11 @@ International Conference on Computer Vision (ICCV) 2021
 ### [Geometric Programming Approach to Glitch Minimization via Gate Sizing](https://vignesh99.github.io/Publications/GM)  
 Karthikeyan Muthamizh Vithagan, **Vignesh Sundaresha**, Janakiraman Viraraghavan  
 IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)  
+
+[//]: # (<hr style="border:2px solid gray"> )
+
+# Workshop papers
+
+### [Grow to Compress? Efficient Training of Robust Networks on the Edge](https://openreview.net/pdf?id=8rko2UqXdB)  
+**Vignesh Sundaresha**, Naresh Shanbhag  
+Neural Information Processing Systems Workshop on Machine Learning and Compression (NeurIPSW) 2024  
