@@ -29,4 +29,4 @@ Neural Information Processing Systems (NeurIPS) Workshop on Machine Learning and
 
 ### [Designing Parameter and Compute Efficient Diffusion Transformers using Distillation](https://arxiv.org/abs/2502.14226)  
 **Vignesh Sundaresha**  
-International Conference on Learning Representations (ICLR) Workshop on Deep Generative Models in Machine Learning 2024  
+International Conference on Learning Representations (ICLR) Workshop on Deep Generative Models in Machine Learning 2025  
