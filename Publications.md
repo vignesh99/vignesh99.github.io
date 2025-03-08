@@ -26,3 +26,7 @@ IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (T
 ### [Grow to Compress? Efficient Training of Robust Networks on the Edge](https://openreview.net/pdf?id=8rko2UqXdB)  
 **Vignesh Sundaresha**, Naresh Shanbhag  
 Neural Information Processing Systems Workshop on Machine Learning and Compression (NeurIPSW) 2024  
+
+### [Designing Parameter and Compute Efficient Diffusion Transformers using Distillation](https://arxiv.org/abs/2502.14226)  
+**Vignesh Sundaresha**  
+International Conference on Learning Representations Workshop on Deep Generative Models in Machine Learning (ICLRW) 2024  
