@@ -27,6 +27,6 @@ IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (T
 **Vignesh Sundaresha**, Naresh Shanbhag  
 Neural Information Processing Systems (NeurIPS) Workshop on Machine Learning and Compression 2024  
 
-### [Designing Parameter and Compute Efficient Diffusion Transformers using Distillation](https://arxiv.org/abs/2502.14226)  
+### [Designing Parameter and Compute Efficient Diffusion Transformers using Distillation](https://openreview.net/pdf?id=x1xp9gmszo)  
 **Vignesh Sundaresha**  
 International Conference on Learning Representations (ICLR) Workshop on Deep Generative Models in Machine Learning 2025  
