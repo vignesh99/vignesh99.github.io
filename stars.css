@@ -1,0 +1,17 @@
+/* Sparse moonlit glints, kept in the margins rather than over the reading pane. */
+.side-stars { position: fixed; inset: 0; z-index: 2; pointer-events: none; overflow: hidden; }
+.side-star { position: absolute; width: 14px; height: 18px; transform: translate(-50%, -50%); }
+.star-light { position: absolute; inset: 0; opacity: .65; animation: star-twinkle var(--twinkle) var(--phase) infinite ease-in-out; }
+.star-light::before, .star-light::after { content: ''; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); background: linear-gradient(transparent, #dcefff 42%, #fff 50%, #dcefff 58%, transparent); }
+.star-light::before { width: 1px; height: 100%; }
+.star-light::after { width: 100%; height: 1px; background: linear-gradient(90deg, transparent, #dcefff 42%, #fff 50%, #dcefff 58%, transparent); }
+.star-core { position: absolute; width: 2px; height: 2px; top: 50%; left: 50%; border-radius: 50%; background: #f5fbff; transform: translate(-50%, -50%); box-shadow: 0 0 7px 2px #b5dcff35; }
+.side-stars[data-surface=water] .star-light { height: 10px; top: 4px; animation-name: star-twinkle, reflection-drift; animation-duration: var(--twinkle), var(--drift); animation-delay: var(--phase), var(--phase); }
+.star-reflection { display: none; position: absolute; top: 13px; left: 1px; width: 12px; height: 1px; background: linear-gradient(90deg, transparent, #c1e3ffb0, transparent); box-shadow: 3px 4px 0 -0.1px #b1d8f95c, -2px 8px 0 -0.2px #b1d8f930; animation: reflection-shimmer var(--drift) var(--phase) infinite ease-in-out; }
+.side-stars[data-surface=water] .star-reflection { display: block; }
+@keyframes star-twinkle { 0%, 100% { opacity: .45; } 23% { opacity: .73; } 41% { opacity: .54; } 68% { opacity: 1; } 84% { opacity: .6; } }
+@keyframes reflection-drift { 0%, 100% { transform: translateX(-1px) scaleX(.88); } 37% { transform: translateX(1px) scaleX(1.15); } 73% { transform: translateX(-.4px) scaleX(.96); } }
+@keyframes reflection-shimmer { 0%, 100% { opacity: .4; transform: translateX(-1px) scaleX(.7); } 43% { opacity: .85; transform: translateX(1.5px) scaleX(1.1); } 76% { opacity: .55; transform: translateX(-.5px) scaleX(.85); } }
+.still .side-stars *, .still .side-stars *::before, .still .side-stars *::after { animation-play-state: paused; }
+@media (max-width: 600px) { .side-star { width: 9px; height: 13px; } .star-reflection { width: 8px; left: 0; } }
+@media (prefers-reduced-motion: reduce) { .side-stars * { animation: none !important; } }

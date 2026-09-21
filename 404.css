@@ -1,0 +1,12 @@
+.error-content { display: flex; flex-direction: column; }
+.error-panel { flex: none; width: min(480px, calc(100% - 64px)); padding: 20px 16px 28px; text-align: center; }
+.error-panel h1 { font-size: clamp(96px, 16vw, 140px); line-height: 1.2; letter-spacing: -5px; }
+.error-panel h2 { font-size: 28px; margin: 12px 0; }
+.error-panel p { font-size: 17px; }
+.error-home { display: inline-block; margin-top: 28px; text-decoration: underline; text-underline-offset: 6px; }
+.error-page #lighthouse-beam { animation: beacon-light 5.5s ease-in-out infinite; }
+.error-page .lighthouse-lantern { animation: lantern-light 5.5s ease-in-out infinite; }
+@keyframes beacon-light { 0%, 68%, 100% { opacity: .75; } 25%, 40% { opacity: 1; } }
+@keyframes lantern-light { 0%, 68%, 100% { opacity: .55; box-shadow: 0 0 6px #95caff55; } 25%, 40% { opacity: 1; box-shadow: 0 0 15px #b5deff, 0 0 38px #83bfff66; } }
+.error-page.still #lighthouse-beam, .error-page.still .lighthouse-lantern { animation: none; }
+@media (prefers-reduced-motion: reduce) { .error-page #lighthouse-beam, .error-page .lighthouse-lantern { animation: none; } }

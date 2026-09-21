@@ -1,0 +1,54 @@
+.post-page { height: 100dvh; overflow: hidden; }
+.post-header { position: fixed; z-index: 3; top: 0; left: 50%; transform: translateX(-50%); width: min(880px, calc(100% - 64px)); height: 84px; display: flex; align-items: center; justify-content: space-between; background: var(--paper); }
+.post-shell { position: fixed; inset: 84px 0 0; overflow-y: auto; overscroll-behavior: contain; scrollbar-color: #ffffff55 transparent; outline: none; }
+.post-content { max-width: 760px; margin: auto; padding: 45px 0 80px; outline: none; }
+.post-heading { margin-bottom: 38px; }
+.post-heading h1 { font-size: clamp(40px, 5vw, 62px); letter-spacing: -1.2px; margin: 17px 0 20px; line-height: 1.1; }
+.post-subtitle { font-size: 23px; font-style: italic; }
+.post-body { font-size: 18px; line-height: 1.85; overflow-wrap: anywhere; }
+.post-body p { margin-bottom: 22px; }
+.post-body h2 { font-size: 31px; margin: 38px 0 20px; }
+.post-body h3 { font-size: 25px; margin: 30px 0 16px; }
+.post-body a, .post-neighbors a { text-decoration: underline; text-underline-offset: 4px; text-decoration-color: #ffffff66; }
+.post-body figure { margin: 32px 0; }
+.post-body figure img { width: auto !important; max-width: 100%; max-height: 75vh; height: auto; }
+.post-body img, .post-body video { max-width: 100%; height: auto; }
+.post-body video { display: block; width: 100%; margin: 28px 0; background: #06192e; }
+.post-body figcaption { font-size: 14px; line-height: 1.6; margin-top: 12px; }
+.post-body .getty-figure { text-align: center; }
+.post-body details { margin: 28px 0; padding: 18px 0; border-block: 1px solid var(--line); }
+.post-body summary { cursor: pointer; font-size: 20px; }
+.post-body details[open] > summary { margin-bottom: 24px; }
+.post-body hr { border: 0; border-top: 1px solid var(--line); margin: 32px 0; }
+.post-body .footnotes { font-size: 15px; }
+.post-body .footnotes p { margin-bottom: 12px; }
+.post-body :target { scroll-margin-top: 20px; }
+.post-body pre { white-space: pre; overflow-x: auto; padding: 18px; border: 1px solid var(--line); font-size: 15px; }
+.post-body .katex-display { overflow-x: auto; overflow-y: hidden; padding: 12px 0; max-width: 100%; }
+.post-body .katex { font-size: 1.04em; }
+.post-neighbors { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 24px; padding-top: 26px; margin-top: 50px; border-top: 1px solid var(--line); font-size: 16px; }
+.post-neighbors a { max-width: 46%; }
+.post-back { margin-top: 35px; }
+@media (max-width: 850px) { .post-content { width: calc(100% - 64px); } }
+@media (max-width: 600px) {
+  .post-header { width: calc(100% - 48px); height: 72px; }
+  .post-shell { top: 72px; }
+  .post-content { width: calc(100% - 48px); padding-top: 28px; }
+  .post-body { font-size: 17px; }
+  .post-heading h1 { font-size: 41px; }
+  .post-body h2 { font-size: 28px; }
+  .post-neighbors { display: grid; }
+  .post-neighbors a { max-width: none; }
+}
+
+/* The same #10345c at 33% as the homepage water shader, softly edged
+   around the complete reading column instead of an opaque panel. */
+.post-content { position: relative; isolation: isolate; }
+.post-content::before {
+  content: ''; position: absolute; z-index: -1; pointer-events: none;
+  inset: 20px -16px 20px; border-radius: 12px 12px 50% 50% / 12px 12px 66px 66px;
+  background: rgb(16 52 92 / 33%); filter: blur(10px);
+}
+@media (max-width: 600px) {
+  .post-content::before { inset: 10px -12px 20px; border-bottom-left-radius: 50% 48px; border-bottom-right-radius: 50% 48px; }
+}
