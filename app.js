@@ -15,7 +15,7 @@
         <details class="paper-abstract" name="publication-abstracts"><summary>Read abstract</summary>
           <div class="abstract-basin"><p>${escape(paper.abstract)}</p>
             <div class="abstract-credit"><p class="paper-citation">${paper.citationChicago}</p><p class="paper-rights">${paper.rightsNotice}</p></div>
-            <div class="abstract-tools">${paper.abstractSource ? `<a class="text-link" href="${escape(paper.abstractSource)}">Abstract source ↗</a>` : ''}<button type="button" class="copy-bibtex" data-bibtex="${escape(paper.bibtex)}">Copy BibTeX</button><span class="copy-status" role="status"></span></div>
+            <div class="abstract-tools">${paper.abstractSource ? `<a class="text-link" href="${escape(paper.abstractSource)}">Abstract source ↗</a>` : ''}${paper.codeUrl ? `<a class="text-link" href="${escape(paper.codeUrl)}">Code ↗</a>` : ''}<button type="button" class="copy-bibtex" data-bibtex="${escape(paper.bibtex)}">Copy BibTeX</button><span class="copy-status" role="status"></span></div>
           </div>
         </details>
       </div>
