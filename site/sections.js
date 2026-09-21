@@ -3,6 +3,8 @@
   const screens = [...document.querySelectorAll('#section-deck > .screen')];
   const previous = document.querySelector('#previous-section');
   const next = document.querySelector('#next-section');
+  const publicHash = id => '#' + ({ notes: 'writing', research: 'publications' }[id] || id);
+  const sectionId = hash => ({ writing: 'notes', publications: 'research', teaching: 'about' }[hash.slice(1)] || hash.slice(1));
   let active = -1;
   const currentPane = () => screens[active]?.querySelector('.section-scroll');
   const canScroll = (pane, direction) => pane && (direction > 0
@@ -10,7 +12,10 @@
     : pane.scrollTop > 2);
   function show(index, { replace = false, focus = false, source = 'step' } = {}) {
     index = Math.max(0, Math.min(screens.length - 1, index));
-    if (index === active) return;
+    if (index === active) {
+      if (location.hash !== publicHash(screens[index].id)) history.replaceState(null, '', publicHash(screens[index].id));
+      return;
+    }
     const previousIndex = active;
     const change = { from: screens[previousIndex]?.id ?? null, to: screens[index].id,
       direction: Math.sign(index - previousIndex), source };
@@ -23,14 +28,14 @@
     const screen = screens[index];
     document.body.dataset.section = screen.id;
     document.querySelectorAll('.site-header a[href^="#"]').forEach(link => {
-      if (link.hash === '#' + screen.id) link.setAttribute('aria-current', 'location');
+      if (sectionId(link.hash) === screen.id) link.setAttribute('aria-current', 'location');
       else link.removeAttribute('aria-current');
     });
     previous.disabled = index === 0;
     next.disabled = false;
     previous.textContent = index > 0 ? `↑ ${screens[index - 1].dataset.label}` : '↑ Previous';
     next.textContent = index < screens.length - 1 ? `${screens[index + 1].dataset.label} ↓` : 'Back to top ↑';
-    if (location.hash !== '#' + screen.id) history[replace ? 'replaceState' : 'pushState'](null, '', '#' + screen.id);
+    if (location.hash !== publicHash(screen.id)) history[replace ? 'replaceState' : 'pushState'](null, '', publicHash(screen.id));
     if (focus) currentPane().focus({ preventScroll: true });
     dispatchEvent(new CustomEvent('sectionchange', { detail: change }));
     // Re-measure once the brief entrance transform has finished.
@@ -38,7 +43,7 @@
   }
   function fromHash() {
     const teaching = location.hash === '#teaching';
-    const index = screens.findIndex(screen => '#' + screen.id === (teaching ? '#about' : location.hash));
+    const index = screens.findIndex(screen => screen.id === sectionId(location.hash));
     show(index < 0 ? 0 : index, { replace: true, source: 'history' });
     if (teaching) {
       document.querySelector('#teaching').closest('details').open = true;
@@ -47,7 +52,7 @@
   document.addEventListener('click', event => {
     const link = event.target.closest('a[href^="#"]');
     if (!link || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
-    const index = screens.findIndex(screen => '#' + screen.id === link.hash);
+    const index = screens.findIndex(screen => screen.id === sectionId(link.hash));
     if (index < 0) return;
     event.preventDefault(); show(index, { focus: true, source: link.closest('.site-header') ? 'navigation' : 'link' });
   });
