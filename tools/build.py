@@ -42,7 +42,8 @@ def build():
         if 'http-equiv="refresh"' not in markup:
             markup = markup.replace('</head>', '<script defer src="/site/offline.js"></script></head>')
             page.write_text(markup)
-    files = sorted(p for p in OUT.rglob('*') if p.is_file())
+    # GitHub Pages does not serve dotfiles such as .nojekyll.
+    files = sorted(p for p in OUT.rglob('*') if p.is_file() and not p.name.startswith('.'))
     digest = hashlib.sha256()
     for path in files:
         digest.update(str(path.relative_to(OUT)).encode())
