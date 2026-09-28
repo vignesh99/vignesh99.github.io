@@ -563,7 +563,6 @@
       draw(t,dt,envelope);
       const active=!paused&&(envelope>0||(age>=0&&age<.45)||mix<1||t<pulseUntil||t<fillUntil);
       if(active)frame=requestAnimationFrame(tick);else lastFrame=0;
-      dispatchEvent(new CustomEvent('watersurfacechange',{detail:{rest:!active}}));
     }
     function request() {if(!frame&&!document.hidden)frame=requestAnimationFrame(tick);}
     function measure() {needsMeasure=true;request();}
@@ -623,7 +622,7 @@
     document.fonts.ready.then(measure);
     measureNow();request();
     return {
-      route, measure, ripple, sampleSurface: sampleWaterSurface,
+      route, measure, ripple,
       amberParticles(){return rippleBursts.filter(b=>b?.kind==='amber'&&clock()-b.start<RIPPLE_SECONDS).flatMap(b=>b.grains.map((g,id)=>({id,x:g.x,y:g.y,alive:clock()-b.start>=g.birth&&clock()-b.start<g.death,flowX:g.flowX,flowY:g.flowY})));},
       basin(element,open) {
         if(open) {basins.set(element,clock()-1);fillUntil=-100;}
