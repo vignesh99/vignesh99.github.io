@@ -44,11 +44,12 @@
     const strength = distance * distance * (3 - 2 * distance);
     // Constant original haze over the entire reading block. Only the empty
     // space below it carries the brighter, distance-dependent light gradient.
+    // Cobalt font-lock-comment-face: #008AFF (emacs-jp/replace-colorthemes).
     const light = ctx.createLinearGradient(0, bottom, 0, sy);
     light.addColorStop(0, 'rgba(16,52,92,.33)');
     light.addColorStop(.22, 'rgba(16,52,92,.33)');
-    light.addColorStop(.62, `rgba(70,126,178,${.07 + .10 * strength})`);
-    light.addColorStop(1, `rgba(151,204,250,${.10 + .15 * strength})`);
+    light.addColorStop(.62, `rgba(0,138,255,${.07 + .10 * strength})`);
+    light.addColorStop(1, `rgba(0,138,255,${.10 + .15 * strength})`);
     ctx.save();ctx.filter = 'blur(10px)';ctx.fillStyle = light;
     // A single silhouette joins the full-width haze to the lantern, avoiding
     // overlapping layers, a brightness seam, or a cone cutting across text.
