@@ -80,7 +80,8 @@
   const reduced=matchMedia('(prefers-reduced-motion: reduce)');
   const enabled=()=>!document.hidden&&!reduced.matches&&!document.body.classList.contains('still');
   function reset(){clearStars();foam.length=0;foamInk.clearRect(0,0,innerWidth,innerHeight);if(frame)cancelAnimationFrame(frame);frame=0;lastTime=0;accumulator=0;lastPoint=null;strokeLength=0;lastInput=0;
-    if(height){height.fill(0);velocity.fill(0);nextHeight.fill(0);nextVelocity.fill(0);currentX.fill(0);currentY.fill(0);slopes.fill(0);render(slopes,w,h,0);}}
+    if(height){height.fill(0);velocity.fill(0);nextHeight.fill(0);nextVelocity.fill(0);currentX.fill(0);currentY.fill(0);slopes.fill(0);render(slopes,w,h,0);}
+    dispatchEvent(new CustomEvent('watersurfacechange',{detail:{rest:true}}));}
   function resize(){reset();readingBounds();refreshStars();cell=Math.max(2,innerWidth/600);w=Math.ceil(innerWidth/cell)+2;h=Math.ceil(innerHeight/cell)+2;
     const n=w*h;height=new Float32Array(n);velocity=new Float32Array(n);nextHeight=new Float32Array(n);nextVelocity=new Float32Array(n);slopes=new Float32Array(n*2);absorb=new Float32Array(n);laplacian=new Float32Array(n);currentX=new Float32Array(n);currentY=new Float32Array(n);
     for(let y=0;y<h;y++)for(let x=0;x<w;x++){const edge=Math.min(x,y,w-1-x,h-1-y);absorb[y*w+x]=Math.exp(-(1.05+Math.max(0,12-edge)*.65)*STEP);}
@@ -171,6 +172,7 @@
     for(let y=1;y<h-1;y++)for(let x=1;x<w-1;x++){const i=y*w+x;slopes[i*2]=(height[i+1]-height[i-1])/(2*cell);slopes[i*2+1]=(height[i+w]-height[i-w])/(2*cell);}
     const t=Math.max(0,Math.min(1,(LIFETIME-age)/.65));render(slopes,w,h,t*t*(3-2*t));drawFoam(elapsed,t);warpStars(t);lastCost=performance.now()-start;
     frame=requestAnimationFrame(tick);
+    dispatchEvent(new Event('watersurfacechange'));
   }
   // Read the same continuous surface used for lighting and star distortion.
   // These slopes drive the amber grains; they are not a separate noise field.
