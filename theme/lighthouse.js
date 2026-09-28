@@ -42,14 +42,14 @@
     const gap = Math.max(1, sy - bottom);
     const distance = Math.max(0, Math.min(1, (gap - 70) / 300));
     const strength = distance * distance * (3 - 2 * distance);
-    // Constant original haze over the entire reading block. Only the empty
-    // space below it carries the brighter, distance-dependent light gradient.
+    // One Cobalt comment-blue hue throughout the light, with a uniform softer
+    // opacity over reading areas and a stronger beam below the text.
     // Cobalt font-lock-comment-face: #008AFF (emacs-jp/replace-colorthemes).
     const light = ctx.createLinearGradient(0, bottom, 0, sy);
-    light.addColorStop(0, 'rgba(16,52,92,.33)');
-    light.addColorStop(.22, 'rgba(16,52,92,.33)');
-    light.addColorStop(.62, `rgba(0,138,255,${.07 + .10 * strength})`);
-    light.addColorStop(1, `rgba(0,138,255,${.10 + .15 * strength})`);
+    light.addColorStop(0, 'rgba(0,138,255,.18)');
+    light.addColorStop(.22, 'rgba(0,138,255,.18)');
+    light.addColorStop(.62, `rgba(0,138,255,${.30 + .10 * strength})`);
+    light.addColorStop(1, `rgba(0,138,255,${.48 + .12 * strength})`);
     ctx.save();ctx.filter = 'blur(10px)';ctx.fillStyle = light;
     // A single silhouette joins the full-width haze to the lantern, avoiding
     // overlapping layers, a brightness seam, or a cone cutting across text.
